@@ -11450,7 +11450,7 @@ EOF
                 "Linux")
                     set_colors 6 6 7 1
                     read -rd '' ascii_data <<'EOF'
-                       ....
+${c1}                       ....
                 .:~YGG5?7777Y5Y?!^..
         .   :^~!~7@@BP#&BP#&B7:
         Y :G&P^  ?&5G@&G#@G:
