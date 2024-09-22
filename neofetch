@@ -11503,7 +11503,7 @@ EOF
                 ;;
 
                 "IRIX"*)
-                    set_colors 4 7
+                    set_colors 6 6 7 1
                     read -rd '' ascii_data <<'EOF'
  ${c1}                      ....
                 .:~YGG5?7777Y5Y?!^..
