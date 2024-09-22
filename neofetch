@@ -5525,8 +5525,6 @@ get_distro_ascii() {
     # This function gets the distro ascii art and colors.
     #
     # $ascii_distro is the same as $distro.
-    ascii_distro=Cydra
-    distro=Cydra
     case $(trim "$ascii_distro") in
         "AIX"*)
             set_colors 2 7
