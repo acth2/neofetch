@@ -11525,10 +11525,42 @@ oMMMMmMMMMNds:.+MMMmmMMN/.-odNMMMMmMMMM+
           `:hMMMMMM. NMMMMMh/`
              .odNm+  /dNms.
 EOF
-                ;;
-
-            esac
         ;;
+
+        "Cydra"*)
+            set_colors 6 6 7 1
+            read -rd '' ascii_data <<'EOF'
+${c1}                    y:
+                       ....
+                .:~YGG5?7777Y5Y?!^..
+        .   :^~!~7@@BP#&BP#&B7:
+        Y :G&P^  ?&5G@&G#@G:
+       :@:   ~5B?. ~@@&@@!
+      :^@#      Y&:7@JG@J
+      ^PY@&:     J&   &@... ..
+      .&PJ@@P:   .@5YY&#  :7:77
+      !J@#YB@@B?:^@J:!Y##B5YBB##7.
+      J5B@@#G&&P5B@&#@@@@@@@@@@@@BBBP
+      !@P#@&B&@@5. :!?B@B.:^P@@@@&&@@G.
+      ~@@&@@~.!5#&Y.   &@.  .7#@@#5YYBG#P^
+      ^@!.!JJ  .:~77:  .G&Y.     7#P:!5!
+      :@^  ^5#BP#@&@@@&BYP&@&G5J!!~.  ^#5!:
+      .@YP@&J.:?.5:5@#YG#&&@@@@@@@@@&5:.^~:.
+      .@@G:  ?P:... :J:    ^YY~!PJG5&@@#^
+      .P: ^PB??G: ~?#J7^.    .7. :. .@@@&~
+   ..^7YPGY^ 7@B  P^P@@@#P7:.  .   ^B@@G.7 
+.^!7!~:     ~@@: ~&:J@@@#&@@@&&&&@@&#@^
+             ^&&^ J@~^&@#7?~~7JJ7~. :^
+               ~57.~&5:Y@@GB5:
+                  .  !5!~G@&&&7
+                       .. :#@&&B:
+                           ^&&&&&&5:
+                             ^?B&&&&&&~
+                               .!GG&#J7!^:.......
+                                   :. .~777!7?557:
+EOF
+    ;;
+
     esac
 
     # Overwrite distro colors if '$ascii_colors' doesn't
