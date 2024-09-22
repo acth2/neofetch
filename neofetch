@@ -11505,33 +11505,7 @@ EOF
                 "IRIX"*)
                     set_colors 4 7
                     read -rd '' ascii_data <<'EOF'
-${c1}           ./ohmNd/  +dNmho/-
-     `:+ydNMMMMMMMM.-MMMMMMMMMdyo:.
-   `hMMMMMMNhs/sMMM-:MMM+/shNMMMMMMh`
-   -NMMMMMmo-` /MMM-/MMM- `-omMMMMMN.
- `.`-+hNMMMMMNhyMMM-/MMMshmMMMMMmy+...`
-+mMNds:-:sdNMMMMMMMyyMMMMMMMNdo:.:sdMMm+
-dMMMMMMmy+.-/ymNMMMMMMMMNmy/-.+hmMMMMMMd
-oMMMMmMMMMNds:.+MMMmmMMN/.-odNMMMMmMMMM+
-.MMMM-/ymMMMMMmNMMy..hMMNmMMMMMmy/-MMMM.
- hMMM/ `/dMMMMMMMN////NMMMMMMMd/. /MMMh
- /MMMdhmMMMmyyMMMMMMMMMMMMhymMMMmhdMMM:
- `mMMMMNho//sdMMMMM//NMMMMms//ohNMMMMd
-  `/so/:+ymMMMNMMMM` mMMMMMMMmh+::+o/`
-     `yNMMNho-yMMMM` NMMMm.+hNMMNh`
-     -MMMMd:  oMMMM. NMMMh  :hMMMM-
-      -yNMMMmooMMMM- NMMMyomMMMNy-
-        .omMMMMMMMM-`NMMMMMMMmo.
-          `:hMMMMMM. NMMMMMh/`
-             .odNm+  /dNms.
-EOF
-        ;;
-
-        "Cydra"*)
-            set_colors 6 6 7 1
-            read -rd '' ascii_data <<'EOF'
-${c1}                    y:
-                       ....
+ ${c1}                      ....
                 .:~YGG5?7777Y5Y?!^..
         .   :^~!~7@@BP#&BP#&B7:
         Y :G&P^  ?&5G@&G#@G:
@@ -11559,8 +11533,10 @@ ${c1}                    y:
                                .!GG&#J7!^:.......
                                    :. .~777!7?557:
 EOF
-    ;;
+                ;;
 
+            esac
+        ;;
     esac
 
     # Overwrite distro colors if '$ascii_colors' doesn't
